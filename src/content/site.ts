@@ -71,7 +71,7 @@ export const siteContent: SiteContent = {
     title: 'Backend-Focused Full Stack Developer',
     tagline: '4+ years building scalable, high-performance apps for SaaS, e-commerce, and recruitment.',
     location: 'Ahmedabad, Gujarat, India',
-    phone: '+91 99999 99999',
+    phone: '+91 97234 55615',
     email: 'patelumang607@gmail.com',
     linkedin: 'www.linkedin.com/in/umang-talpara',
     resumePath: '/assets/umang_talpara_resume.pdf',
