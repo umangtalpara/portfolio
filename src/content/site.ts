@@ -77,11 +77,15 @@ export const siteContent: SiteContent = {
     resumePath: '/assets/umang_talpara_resume.pdf',
   },
   summary: [
-    'Backend-first engineer focusing on system architecture, RESTful APIs, data flow optimization, and reliability.',
-    'Delivered and scaled platforms serving **95,000+ users** and **700,000+ orders** with microservices and robust caching.',
-    'Built automation with **webhooks** and **cron jobs**, plus third-party integrations (ATS, email).',
-    'Hands-on with **Node.js, Express.js, Nest.js, MongoDB, MySQL, Redis, Elasticsearch, RabbitMQ**, **AWS/Vercel**, and CI/CD.',
-    'Comfortable crafting pragmatic UIs with **Vue/Vuetify** and modern tooling when needed.',
+    'Backend-focused Full Stack Developer with 4+ years of experience designing and deploying scalable, high-performance web applications for SaaS, e-commerce, and recruitment platforms.',
+    'Strong expertise in system architecture, backend API development, and data flow optimization to deliver secure, maintainable, and robust backend systems.',
+    'Proven track record of leading teams and driving project execution from concept to deployment, ensuring on-time delivery and quality outcomes.',
+    'Hands-on experience building and scaling high-reliability platforms, supporting large user bases and extensive transaction volumes.',
+    'Developed and launched full-stack solutions using Node.js, Express.js, Nest.js, Vue.js, and MySQL, MongoDB with additional proficiency in RabbitMQ, Redis, Sentry  Jest and Elasticsearch.',
+    'Proven ability to create RESTful APIs, automate processes with webhooks and cron jobs, and integrate third-party platforms for seamless workflow efficiency.',
+    'Experience in crafting user-centric frontend interfaces using Vue.js and Vuetify, delivering intuitive admin panels and user apps.',
+    'Skilled in using CI/CD tools, version control (Git, Github, Gitlab), and cloud services such as AWS and Vercel for robust deployments.',
+    'Strong analytical, debugging, and problem-solving skills, with a passion for innovative, real-world engineering solutions.'
   ],
   experience: [
     {
