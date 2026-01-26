@@ -35,7 +35,7 @@ export const Experience = () => {
             description: [
                 "Designed and developed full-stack web applications including WMS, CRM, POS, and delivery applications.",
                 "Engineered and maintained 7+ microservices, 2 user-facing apps, and 7 admin panels.",
-                "Scaled platform infrastructure to support over 95,000 users and 700,000 orders.",
+                "Scaled platform infrastructure to support over 195,000 users and 4M+ orders.",
                 "Led development of operational modules including ticketing systems and multilevel stock management.",
                 "Utilized Node.js, Nest.js, Vue.js, MySQL, Redis, and Sentry."
             ]
