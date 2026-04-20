@@ -5,28 +5,28 @@ import "./Projects.css";
 export const Projects = () => {
     const projects = [
         {
-            title: "E-Commerce Platform",
-            description: "A full-featured online store with cart functionality, user authentication, and payment integration.",
-            tags: ["React", "Node.js", "MongoDB", "Stripe"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            image: "https://via.placeholder.com/600x400/1a1a1a/3b82f6?text=E-Commerce"
+            title: "AI-Driven ATS SaaS Platform",
+            description: "An AI-powered Applicant Tracking System handling 200M+ candidate profiles with real-time ATS integrations (Ashby, BambooHR, Lever, Keka), email automation engine, and Elasticsearch-powered advanced search.",
+            tags: ["Node.js", "NestJS", "MongoDB", "Elasticsearch", "RabbitMQ"],
+            github: "https://github.com/umangtalpara",
+            demo: "#",
+            image: "https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop"
         },
         {
-            title: "Task Management App",
-            description: "A productivity tool for teams to organize tasks, track progress, and collaborate in real-time.",
-            tags: ["React", "Firebase", "Tailwind CSS"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            image: "https://via.placeholder.com/600x400/1a1a1a/8b5cf6?text=Task+App"
+            title: "E-Commerce & Delivery Platform",
+            description: "Full-stack WMS, CRM, POS, and last-mile delivery platform scaled to 100K+ users and 8M+ orders with 7+ microservices, real-time order tracking, and Redis caching for 40% faster API responses.",
+            tags: ["Node.js", "NestJS", "Vue.js", "MySQL", "Redis", "AWS"],
+            github: "https://github.com/umangtalpara",
+            demo: "#",
+            image: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop"
         },
         {
-            title: "Weather Dashboard",
-            description: "Real-time weather application using OpenWeatherMap API with location detection and 5-day forecast.",
-            tags: ["JavaScript", "API Integration", "CSS3"],
-            github: "https://github.com",
-            demo: "https://demo.com",
-            image: "https://via.placeholder.com/600x400/1a1a1a/06b6d4?text=Weather"
+            title: "Microservices Backend Architecture",
+            description: "Scalable microservices architecture with event-driven communication using RabbitMQ and BullMQ, JWT-based auth with RBAC, CI/CD pipelines with Jenkins and Docker, and Sentry monitoring.",
+            tags: ["NestJS", "Docker", "RabbitMQ", "Jenkins", "Sentry"],
+            github: "https://github.com/umangtalpara",
+            demo: "#",
+            image: "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=600&h=400&fit=crop"
         }
     ];
 

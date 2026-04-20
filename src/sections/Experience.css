@@ -98,6 +98,18 @@
     font-style: italic;
 }
 
+.location {
+    display: block;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    opacity: 0.8;
+    margin-top: 0.25rem;
+}
+
+.location::before {
+    content: '📍 ';
+}
+
 .timeline-description {
     list-style-type: disc;
     padding-left: 1.5rem;
