@@ -30,7 +30,7 @@ export const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.4 }}
                     className="role"
                 >
-                    Software Developer
+                    Backend-Focused Full Stack Developer
                 </motion.h2>
 
                 <motion.p
@@ -39,7 +39,7 @@ export const Hero = () => {
                     transition={{ duration: 0.5, delay: 0.6 }}
                     className="description"
                 >
-                    Backend-focused Full Stack Developer with 4+ years of experience designing and deploying scalable, high-performance web applications for SaaS, e-commerce, and recruitment platforms.
+                    Backend-focused Full Stack Developer with 4.5+ years of experience in designing and scaling distributed systems, microservices, and REST APIs. Proven track record shipping production-grade systems for 195K+ users and 4M+ orders.
                 </motion.p>
 
                 <motion.div
@@ -50,6 +50,7 @@ export const Hero = () => {
                 >
                     <a href="#experience" className="btn btn-primary">View Experience</a>
                     <a href="#contact" className="btn btn-outline">Contact Me</a>
+                    <a href="/umang_resume.pdf" download className="btn btn-outline">📄 Download Resume</a>
                 </motion.div>
 
                 <motion.div
@@ -58,9 +59,8 @@ export const Hero = () => {
                     transition={{ duration: 0.5, delay: 1 }}
                     className="social-links"
                 >
-                    <a href="https://github.com" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                    <a href="https://github.com/umangtalpara" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
                     <a href="https://www.linkedin.com/in/umang-talpara" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
                 </motion.div>
             </div>
         </section>

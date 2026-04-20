@@ -1,0 +1,80 @@
+.education {
+    padding: 6rem 2rem;
+    background: transparent;
+    position: relative;
+}
+
+.education-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.education-card {
+    display: flex;
+    align-items: flex-start;
+    gap: 2rem;
+    background: var(--surface-color);
+    padding: 2.5rem;
+    border-radius: var(--border-radius);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    margin-top: 3rem;
+    transition: all 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--primary-color);
+    box-shadow: 0 10px 30px -10px rgba(2, 12, 27, 0.7);
+}
+
+.education-icon {
+    font-size: 2.5rem;
+    color: var(--primary-color);
+    min-width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(59, 130, 246, 0.1);
+    border-radius: 12px;
+}
+
+.education-details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+}
+
+.education-details h3 {
+    font-size: 1.4rem;
+    color: var(--text-primary);
+    margin: 0;
+}
+
+.education-field {
+    font-size: 1.1rem;
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.education-university {
+    font-size: 1rem;
+    color: var(--text-secondary);
+}
+
+.education-period {
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    font-style: italic;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+    .education-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 1.5rem;
+        padding: 2rem 1.5rem;
+    }
+}

@@ -1,5 +1,5 @@
 import { motion, useMotionValue, useSpring, useTransform } from "framer-motion";
-import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaAws, FaGithub, FaGitlab } from "react-icons/fa";
+import { FaReact, FaJs, FaHtml5, FaCss3Alt, FaNodeJs, FaGitAlt, FaAws, FaGithub, FaGitlab, FaDocker } from "react-icons/fa";
 import { SiTailwindcss, SiTypescript, SiNestjs, SiMongodb, SiRedis, SiElasticsearch, SiRabbitmq, SiMysql, SiVuedotjs, SiVuetify, SiJest, SiApachekafka, SiVercel, SiJenkins, SiPostman, SiSentry, SiJira, SiDbeaver } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 import "./Skills.css";
@@ -69,7 +69,7 @@ export const Skills = () => {
     const skills = [
         // Backend
         { name: "Node.js", icon: <FaNodeJs />, color: "#339933" },
-        { name: "Nest.js", icon: <SiNestjs />, color: "#E0234E" },
+        { name: "NestJS", icon: <SiNestjs />, color: "#E0234E" },
         { name: "Express.js", icon: <FaNodeJs />, color: "#000000" },
 
         // Frontend
@@ -91,6 +91,7 @@ export const Skills = () => {
         { name: "RabbitMQ", icon: <SiRabbitmq />, color: "#FF6600" },
         { name: "Kafka", icon: <SiApachekafka />, color: "#231F20" },
         { name: "AWS", icon: <FaAws />, color: "#FF9900" },
+        { name: "Docker", icon: <FaDocker />, color: "#2496ED" },
         { name: "Vercel", icon: <SiVercel />, color: "#000000" },
 
         // DevOps & Tools

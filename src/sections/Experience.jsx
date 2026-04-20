@@ -18,36 +18,39 @@ export const Experience = () => {
     const experiences = [
         {
             company: "SproutsAI",
-            role: "Software Developer",
-            period: "Jan 2025 - Present",
+            role: "Software Developer (Backend)",
+            period: "Jan 2025 – Jan 2026",
+            location: "California, USA (Remote)",
             description: [
-                "Architected and developed scalable backend services utilizing Node.js, Express, Nest.js, MongoDB, Elasticsearch, and RabbitMQ.",
-                "Integrated third-party ATS platforms to enable seamless candidate data synchronization and streamline recruitment workflows.",
-                "Designed and implemented automation systems using webhooks and cron jobs, improving process efficiency.",
-                "Built a high-performance candidate pool with robust search and filtering capabilities.",
-                "Implemented email automation features for personalized candidate outreach."
+                "Architected scalable backend microservices using Node.js, NestJS, MongoDB, Elasticsearch, and RabbitMQ for an AI-driven ATS SaaS platform handling 200M+ candidate profiles.",
+                "Built email automation engine with personalized outreach, retry logic, rate limiting, and fail-tracking using event-driven architecture; enforced REST API best practices including JWT-based auth and RBAC.",
+                "Integrated ATS platforms (Ashby, BambooHR, Lever, Keka) via REST APIs and webhooks for real-time candidate data sync.",
+                "Developed high-performance candidate search and filtering system using Elasticsearch, reducing recruiter search time significantly.",
+                "Leveraged AI tools (ChatGPT, Claude, Cursor) for code generation, debugging, and LLM-based feature prototyping within production workflows."
             ]
         },
         {
             company: "Frendy",
-            role: "Full Stack Developer",
-            period: "Dec 2021 - Jan 2025",
+            role: "Full Stack Developer (Backend Lead)",
+            period: "Dec 2021 – Jan 2025",
+            location: "Ahmedabad, India",
             description: [
-                "Designed and developed full-stack web applications including WMS, CRM, POS, and delivery applications.",
-                "Engineered and maintained 7+ microservices, 2 user-facing apps, and 7 admin panels.",
-                "Scaled platform infrastructure to support over 195,000 users and 4M+ orders.",
-                "Led development of operational modules including ticketing systems and multilevel stock management.",
-                "Utilized Node.js, Nest.js, Vue.js, MySQL, Redis, and Sentry."
+                "Led backend development of WMS, CRM, POS, and last-mile delivery platform; scaled to 195K+ users and 4M+ orders ensuring high availability and zero-downtime deployments.",
+                "Designed and maintained 7+ microservices, 2 customer-facing apps, and 7 admin panels using Node.js, NestJS, Express.js, Vue.js, React.js, MongoDB, and MySQL.",
+                "Implemented Redis caching and query optimization strategies, improving API response times by up to 40%.",
+                "Led a team of developers, coordinated sprint planning, code reviews, and delivery milestones using Jira.",
+                "Used Sentry for real-time error monitoring and AWS services for cloud infrastructure and deployments."
             ]
         },
         {
             company: "BinBytes",
             role: "Full Stack Developer",
-            period: "Feb 2021 - Nov 2021",
+            period: "Feb 2021 – Nov 2021",
+            location: "Rajkot, India",
             description: [
-                "Developed multiple websites and admin panels as part of a full stack development team.",
-                "Designed and implemented APIs and RESTful web services using Node.js.",
-                "Applied strong analytical and debugging skills to deliver quality solutions."
+                "Built multiple client websites and admin dashboards with Node.js, REST APIs, and React.js frontends.",
+                "Delivered clean, maintainable full-stack codebases with third-party API integrations.",
+                "Applied strong analytical and debugging skills to deliver quality solutions on tight deadlines."
             ]
         }
     ];
@@ -85,6 +88,7 @@ export const Experience = () => {
                                     <h3>{exp.role}</h3>
                                     <span className="company">{exp.company}</span>
                                     <span className="period">{exp.period}</span>
+                                    {exp.location && <span className="location">{exp.location}</span>}
                                 </div>
                                 <ul className="timeline-description">
                                     {exp.description.map((item, i) => (
